@@ -187,7 +187,7 @@ const inject_custom_style = function(){
                         menuitem.label = menuitem.label.replace("[COLS]", "")
                         // should be a megamenu not submenu
                         mmhtml +='<li class="nav-item dropdown megamenu">';
-                        mmhtml +='<a href="javascript:void(0);" class="nav-link">'+menuitem.label+'<i class="fas fa-chevron-down d-none d-sm-inline"></i></a>';
+                        mmhtml +='<a href="javascript:void(0);" class="nav-link" data-megapowtoggle="dropdown">'+menuitem.label+'<i class="fas fa-chevron-down d-none d-sm-inline"></i></a>';
                         mmhtml +='<i class="fa fa-angle-down dropdown-toggle" data-megapowtoggle="dropdown" aria-hidden="true"></i>';
                         mmhtml +='<div class="menu-back-div dropdown-menu megamenu-content" role="menu">';
                         mmhtml +='                    <div class="d-lg-flex justify-content-center">';
@@ -274,7 +274,7 @@ const inject_custom_style = function(){
           var user_name = Thinkific.current_user.first_name;
           console.log("user"+user_name);
               mmhtml +='                      <li class="nav-item dropdown simple-dropdown ">';
-              mmhtml +='                          <a href="javascript:void(0);" class="nav-link dropdown-text"><i class="far fa-user-circle"></i> '+user_name+' <i class="fas fa-chevron-down d-none d-sm-inline"></i></a>';
+              mmhtml +='                          <a href="javascript:void(0);" class="nav-link dropdown-text" data-megapowtoggle="dropdown"><i class="far fa-user-circle"></i> '+user_name+' <i class="fas fa-chevron-down d-none d-sm-inline"></i></a>';
               mmhtml +='                          <i class="fa fa-angle-down dropdown-toggle" data-megapowtoggle="dropdown" aria-hidden="true"></i>';
               mmhtml +='                          <ul class="dropdown-menu" role="menu">';
 var user_list = $(".header__nav .dropdown li");
