@@ -1,0 +1,97 @@
+/* This is a class for CTA buttons within a lesson (text usually) */
+
+.training-resources__button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 0;
+    font-size: .75rem;
+    line-height: 1rem;
+    font-weight: 600;
+    height: 32px;
+    padding: 24px 16px;
+    text-decoration:none;
+}
+
+/* This is a class for a two column layout in text lessons */
+
+.side-by-side { display: flex; flex-direction: row; flex-wrap: wrap; align-items: center; }
+.side-by-side__image { width: 100%; margin-bottom: 32px; }
+@media screen and (min-width: 768px) { .side-by-side__image { flex: 1 1 50%; max-width: 50%; margin-bottom: 0; display:block; height:auto; width:100%; } }
+.side-by-side__text { width: 100%; margin-bottom: 32px;  }
+@media screen and (min-width: 768px) { .side-by-side__text { flex: 1 1 50%; max-width: 50%; padding-left:1em; } }
+
+/* These are classes for upgrade banners in lessons */
+
+.upsell-banner {
+    line-height: 1.5rem;
+    font-weight: 400;
+    font-family: Lato;
+    box-sizing: inherit;
+    font-size: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: .5rem;
+    padding: 1.5rem;
+    border: 1px solid;
+    border-radius: .125rem;
+    list-style-type: none;
+    background-color: #F2F3F5;
+    border-color: #CACCD6;
+    color: #36394D;
+}
+
+@media (min-width: 415px) {
+  .upsell-banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+.upsell-banner-content {
+    margin: 0 0 0.5rem;
+}
+.upsell-banner p {
+  font-size: 12px;
+  font-size: 0.75rem;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.upsell-banner h5 {
+  margin: 4px 0 0;
+}
+.upsell-banner .button {
+    margin: 0 0 0.5rem;
+}
+.upsell-banner .button, a.lesson-button {
+    font-family: Lato;
+    list-style-type: none;
+    box-sizing: inherit;
+    text-align: center;
+    padding: 8px 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 0;
+    font-size: .875rem;
+    line-height: 1.5rem;
+    height: 40px;
+    text-decoration: none;
+    background-color: #100d59;
+    color: #fff;
+}
+.course-player__download-files__menu a {
+    background-color: #100d59!important;
+}
+
+
