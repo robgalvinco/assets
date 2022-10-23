@@ -61,16 +61,15 @@
 .take .fr-view  .cta-side .cta-content {
     max-width:70%;
 }
-.take .fr-view .cta p {
+.take .fr-view .cta h4 {
   font-size: 12px;
   font-size: 0.75rem;
   margin: 0;
+  margin-bottom: 4px;
   text-transform: uppercase;
 }
 
-.take .fr-view .cta h5 {
-  margin: 4px 0 0;
-}
+
 .take .fr-view .cta .button {
     margin: 0 0 0.5rem;
 }
