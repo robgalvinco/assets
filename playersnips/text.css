@@ -28,7 +28,7 @@
 .upsell-banner {
     line-height: 1.5rem;
     font-weight: 400;
-    font-family: Lato;
+    /* font-family: Lato; */
     box-sizing: inherit;
     font-size: inherit;
     display: flex;
@@ -40,9 +40,9 @@
     border: 1px solid;
     border-radius: .125rem;
     list-style-type: none;
-    background-color: #F2F3F5;
+    /* background-color: #F2F3F5;
     border-color: #CACCD6;
-    color: #36394D;
+    color: #36394D; */
 }
 
 @media (min-width: 415px) {
@@ -70,7 +70,6 @@
     margin: 0 0 0.5rem;
 }
 .upsell-banner .button, a.lesson-button {
-    font-family: Lato;
     list-style-type: none;
     box-sizing: inherit;
     text-align: center;
@@ -87,11 +86,11 @@
     line-height: 1.5rem;
     height: 40px;
     text-decoration: none;
-    background-color: #100d59;
-    color: #fff;
+    /* background-color: #100d59;
+    color: #fff; */
 }
 .course-player__download-files__menu a {
-    background-color: #100d59!important;
+    /* background-color: #100d59!important; */
 }
 
 
