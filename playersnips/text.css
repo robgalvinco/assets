@@ -39,6 +39,10 @@
 }
 .take .fr-view  .cta-content {
     margin: 0 0 0.5rem;
+    color: var(--cta-text,inherit);
+}
+.take .fr-view  .cta-side .cta-content {
+    max-width:80;
 }
 .take .fr-view .cta p {
   font-size: 12px;
