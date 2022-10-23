@@ -1,3 +1,5 @@
+.take .course-player__html-item {max-width:100%;}
+
 /* this is color overirdes that can be added to the SFC settings
 
 <style>
@@ -70,10 +72,10 @@
 }
 
 
-.take .fr-view .cta .button {
+.take .fr-view .cta .button, .take .fr-view .kapow-player .button {
     margin: 0 0 0.5rem;
 }
-.take .fr-view .cta .button {
+.take .fr-view .cta .button,  .take .fr-view .kapow-player .button{
     list-style-type: none;
     box-sizing: inherit;
     text-align: center;
