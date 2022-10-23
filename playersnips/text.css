@@ -39,6 +39,14 @@
 }
 .take .fr-view  .cta-content {
     margin: 0 0 0.5rem;
+}
+
+.take .fr-view  .cta-content,
+.take .fr-view  .cta-content h1,
+.take .fr-view  .cta-content h2,
+.take .fr-view  .cta-content h3,
+.take .fr-view  .cta-content h4,
+.take .fr-view  .cta-content h5{
     color: var(--cta-text,inherit);
 }
 .take .fr-view  .cta-side .cta-content {
