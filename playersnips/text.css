@@ -50,7 +50,7 @@
     color: var(--cta-text,inherit);
 }
 .take .fr-view  .cta-side .cta-content {
-    max-width:80;
+    max-width:80%;
 }
 .take .fr-view .cta p {
   font-size: 12px;
