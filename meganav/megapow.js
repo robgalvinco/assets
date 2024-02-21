@@ -2347,6 +2347,7 @@ y=function(){x();return l()},H=function(){G=!0;f.off("touchmove",l);f.off("scrol
     /****** Set parallax ******/
     function setParallax() {
         if( ! isIE() ) {
+            /*
             $( '[data-parallax-background-ratio]' ).each( function() {
                 var ratio = $( this ).attr( 'data-parallax-background-ratio' ) || 0.5;
                 $( this ).parallax( '50%', ratio );
@@ -2355,6 +2356,7 @@ y=function(){x();return l()},H=function(){G=!0;f.off("touchmove",l);f.off("scrol
                 var ratio = $( this ).attr( 'data-parallax-layout-ratio' ) || 1;
                 $( this ).parallaxImg( ratio );
             });
+            */
         }
     }
 
