@@ -101,7 +101,7 @@ const inject_custom_style = function(){
             nav_subbg_color="rgba(0, 0, 0, 1)"
           }
           var nav_sublink_color = $(".dropdown__menu li.dropdown__menu-item a").first().css("color"); 
-          if(typeof(Thinkific.current_user)=="undefined"){
+          if(typeof(Thinkific)=="undefined" && typeof(Thinkific.current_user)=="undefined"){
             nav_subbg_color =nav_bg_color;
             nav_sublink_color =nav_link_color ;
           }
@@ -263,7 +263,7 @@ const inject_custom_style = function(){
               }
             })
 
-        if(Thinkific.current_user){
+        if(typeof(Thinkific)=="undefined" && typeof(Thinkific.current_user)=="undefined" && Thinkific.current_user){
           console.log("User Signed In Grabbing user Menu");
           if($(".header__nav-item--default a").length>0){
              var default_link = $(".header__nav-item--default a")[0];
