@@ -153,8 +153,9 @@ const inject_custom_style = function(){
            /* add logo */
           var logo_link = $(".header__logo a").first().attr("href");
           var logo_img = $(".header__logo a img").first().attr("src");
+          var logo_alt = $(".header__logo a img").first().attr("alt");
           mmhtml +='<a class="navbar-brand" href="'+logo_link+'">';
-          mmhtml +=' <img src="'+logo_img+'"  class="default-logo" alt="">';
+          mmhtml +=' <img src="'+logo_img+'"  class="default-logo" alt="'+logo_alt+'">';
           // mmhtml +=' <img src="'+logo_img+'"  class="alt-logo" alt="">';
           // mmhtml +=' <img src="'+logo_img+'"  class="mobile-logo" alt="">';
           mmhtml +=' </a>';
